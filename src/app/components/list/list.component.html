@@ -1,0 +1,8 @@
+
+<!-- this {{namesList}} did display -->
+<!-- {{namesList}} -->
+<div class='card_container'>
+    <!-- <div class='card' *ngFor="let country of countriesToBeRendered"> {{ country }} </div> -->
+    <div class='card' *ngFor="let country of namesList"> {{ country }} </div>
+</div>
+<div class='no_data_div' *ngIf="showCountryNotPresent">No Data Available</div>    
